@@ -1,6 +1,6 @@
 [build]
-  # We add the install command for the linux binary before running the build
-  command = "npm install @rollup/rollup-linux-x64-gnu --no-save && npm run build"
+  # We added lightningcss-linux-x64-gnu to the install list
+  command = "npm install @rollup/rollup-linux-x64-gnu lightningcss-linux-x64-gnu --no-save && npm run build"
   publish = "dist"
 
 [[redirects]]
