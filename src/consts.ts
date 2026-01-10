@@ -3,7 +3,7 @@ import type { IconMap, SocialLink, Site } from '@/types'
 export const SITE: Site = {
   title: 'Matteo Morotti',
   description:
-    'Portfolio Manager at Valeur SA. Finance professional with a Master\'s from Bocconi University, exploring portfolio management, investing, and the intersection of finance and technology.',
+    'Junior Portfolio Manager at Valeur SA. Finance professional with a Master\'s from Bocconi University, exploring portfolio management, investing, and the intersection of finance and technology.',
   href: 'https://matteomorotti.com',
   author: 'Matteo Morotti',
   locale: 'en-US',
