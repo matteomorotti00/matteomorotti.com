@@ -43,13 +43,14 @@ Through ISIN matching, merged platform product data with internal client-level t
 
 **Excel processing**
 
-- **openpyxl** — lettura e modifica di file Excel (.xlsx), gestione di workbook, worksheet, celle e salvataggio.    
+- **openpyxl** — reading and modifying Excel files (.xlsx), managing workbooks, worksheets, cells, and saving.
+    
 
 **File handling & environment**
 
-- **os** — gestione dei percorsi, verifica dell’esistenza dei file, costruzione dinamica delle directory.
+- **os** — path management, checking file existence, and dynamic directory construction.
     
-- **getpass** — recupero del nome utente locale per generare percorsi utente-dipendenti.
+- **getpass** — retrieving the local username to generate user-dependent paths.
 
 ---
 
