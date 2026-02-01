@@ -1,7 +1,7 @@
 ---
 title: 'Liquidity Data Automation'
 description: "Python-based automation that centralizes clients' cash balances from multiple banks, adjusting for pending trades and temporarily unbooked OTC structured products delivering a unified liquidity report that eliminates manual reconciliation and improves accuracy, operational efficiency and higher quality investment decisions."
-date: 2024-07-25
+date: 2024-07-01
 authors: ['matteomorotti']
 ---
 
