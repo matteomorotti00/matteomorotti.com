@@ -1,7 +1,7 @@
 ---
-title: 'Official Bond Analysis'
+title: 'Bond Analysis'
 description: "Automated Python workflow that consolidates a client’s multi-bank holdings and performs structured analyses across fixed-income and equity segments, delivering faster monthly reporting, improved data accuracy, standardized analytics, and significantly reduced manual effort."
-date: 2024-07-25
+date: 2024-09
 authors: ['matteomorotti']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Web Scraping'
 description: "Python-based automation that scrapes predefined macroeconomic indicators from free public sources, consolidates them into a structured dataset, and produces internal weekly macro updates with higher speed, consistency, and reliability."
-date: 2024-07-25
+date: 2025-09
 authors: ['matteomorotti']
 ---
 

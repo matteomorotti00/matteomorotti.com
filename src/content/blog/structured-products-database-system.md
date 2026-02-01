@@ -1,7 +1,7 @@
 ---
 title: 'Structured Products Database System'
 description: "Automating the creation of a single consolidated dataset that integrates all client structured-product transactions, combining trade amounts and product identifiers with full product attributes such as issuer, underlying, maturity, and observation dates. This unified view enables clear monitoring of potential call events and more accurate analysis of exposures across issuers, underlyings, and clients."
-date: 2024-07-25
+date: 2025-04
 authors: ['matteomorotti']
 ---
 
