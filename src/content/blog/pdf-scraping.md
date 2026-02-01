@@ -1,7 +1,7 @@
 ---
 title: 'PDF Scraping'
 description: "Python-based workflow that parses UBS account statements in PDF format, reconstructs end-of-month client portfolios (AUM, allocations, FX and gold exposure) and generates pre-filled Outlook emails with attached statements, replacing manual end-of-month summaries with a faster and more reliable process."
-date: 2024-07-25
+date: 2025-02
 authors: ['matteomorotti']
 ---
 
