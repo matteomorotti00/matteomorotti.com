@@ -1,0 +1,59 @@
+---
+import BlogCard from '@/components/BlogCard.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import { buttonVariants } from '@/components/ui/button'
+import { SITE } from '@/consts'
+import Layout from '@/layouts/Layout.astro'
+import { getRecentPosts } from '@/lib/data-utils'
+
+const blog = await getRecentPosts(SITE.featuredPostCount)
+---
+
+<Layout class="max-w-3xl">
+  <PageHead slot="head" title="Home" />
+  <section class="rounded-lg border">
+    <div class="flex flex-col space-y-1.5 p-6">
+      <h3 class="text-2xl leading-none font-medium">Welcome,</h3>
+    </div>
+    <div class="p-6 pt-0">
+      <p class="mt-0">
+        I'm a finance professional with a Master's degree from <Link
+            href="https://www.unibocconi.it/en"
+            external
+            underline>Bocconi University</Link
+          >, currently working as a Financial Analyst at <Link
+            href="https://www.valeur-group.com/"
+            external
+            underline>Valeur Securities</Link
+          > in Lugano, Switzerland. Born and raised in Milan, 
+          I combine my professional career in Trading & Structuring
+          with a passion for sports, including competitive swimming, 
+          downhill skiing, sailing, and mountain hiking.
+        </p>
+    </div>
+  </section>
+  <section class="flex flex-col gap-y-4">
+    <h2 class="text-2xl font-medium">Latest posts</h2>
+    <ul class="flex flex-col gap-y-4">
+      {
+        blog.map((post) => (
+          <li>
+            <BlogCard entry={post} />
+          </li>
+        ))
+      }
+    </ul>
+    <div class="flex justify-center">
+      <Link
+        href="/blog"
+        class={buttonVariants({ variant: 'ghost' }) + ' group'}
+      >
+        See all posts <span
+          class="ml-1.5 transition-transform group-hover:translate-x-1"
+          >&rarr;</span
+        >
+      </Link>
+    </div>
+  </section>
+</Layout>
